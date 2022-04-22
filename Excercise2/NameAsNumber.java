@@ -13,8 +13,7 @@ class NameAsNumber {
                 for (char letter : name) {
                     //alphabet= String.valueOf(letter);
                     if (letter == c) {
-                        System.out.print(letter + " ");
-                        System.out.println();
+                        
                         nameInNumber[count] = ((int) c - 96);
                         count++;
                     }
